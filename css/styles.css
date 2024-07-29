@@ -248,8 +248,6 @@ button {
     align-items: center;
 }
 
-.container {}
-
 .hero-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -319,12 +317,6 @@ button {
     padding: 96px 0;
 }
 
-.container {}
-
-.benefits-container {}
-
-.visually-hidden {}
-
 .list-benefits {
     display: flex;
     flex-wrap: wrap;
@@ -332,13 +324,10 @@ button {
     gap: 72px;
 }
 
-.list-benefits-page {}
 
 .feature-icons {
     display: none;
 }
-
-.f-icons {}
 
 .benefits-member {
     font-weight: 700;
@@ -926,9 +915,6 @@ button {
     fill: #ffffff;
 }
 
-
-.close-btn-svg {}
-
 .modal-text {
     font-weight: 500;
     font-size: 16px;
@@ -938,8 +924,6 @@ button {
     color: #2e2f42;
     margin-bottom: 16px;
 }
-
-.modal-form {}
 
 .form-container {
     margin-bottom: 8px;
@@ -1014,9 +998,6 @@ button {
     margin-bottom: 24px;
 }
 
-.privacy-checkbox {}
-
-.visually-hidden {}
 
 .checkbox-lab {
     font-size: 12px;
@@ -1046,10 +1027,6 @@ button {
     fill: #f4f4fd;
     border: none;
 }
-
-
-
-.checkbox-input-icon {}
 
 .checkbox-text-item {
     color: #4d5ae5;
