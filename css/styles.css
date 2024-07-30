@@ -232,7 +232,7 @@ button {
     background-image:
         linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/hero-bg-mob.jpg);
+        url(../images/hero/hero-bg-mob_1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     block-size: cover;
@@ -240,6 +240,18 @@ button {
     background-size: cover;
     max-height: 600px;
     margin: 0 auto;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero-section {
+        background-image:
+            linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero/hero-bg-mob_2x.jpg);
+
+    }
 }
 
 .hero-container {
@@ -291,7 +303,17 @@ button {
         background-image:
             linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/hero-bg-tab.jpg);
+            url(../images/hero/hero-bg-tab_1x.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/hero/hero-tab_2x.jpg);
+        }
     }
 
     .hero-title {
@@ -309,7 +331,17 @@ button {
         background-image:
             linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/people-office.jpg);
+            url(../images/hero/people-office_1x.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/hero/people-office_2x.jpg);
+        }
     }
 
     .hero-title {
