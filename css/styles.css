@@ -913,6 +913,12 @@ button {
     pointer-events: none;
 }
 
+.backdrop.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+}
+
 .modal {
     position: absolute;
     top: 50%;
