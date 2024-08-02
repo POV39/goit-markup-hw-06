@@ -227,7 +227,7 @@ button {
 
 /* ----------HERO--SECTION 1-------- */
 .hero-section {
-    padding: 188px 0;
+    padding: 96px 0;
     background: #2e2f42;
     background-image:
         linear-gradient(rgba(46, 47, 66, 0.7),
@@ -1114,6 +1114,9 @@ visibility: visible;
 
 /* -------------MOBILE MENU-------- */
 
+
+
+
 .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
@@ -1143,16 +1146,18 @@ visibility: visible;
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    width: 100%;
+    min-height: 100%;
 }
 
 @media screen and (min-width: 768px) {
 
     .mobile-meny,
     .mobile-container {
-        display: none;
+        /* display: none; */
     }
 }
+
 
 .mobile-btn {
     display: block;
